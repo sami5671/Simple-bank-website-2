@@ -15,7 +15,7 @@ document.getElementById("btn-submit").addEventListener("click", function () {
   //   Danger: do not varify eamil password on the client side
   // step: 4: varify eamil and password and check weather valid user or not
   if (email === "samialam@gmail.com" && password === "sami123") {
-    window.location.href = "login.html";
+    window.location.href = "bank.html";
   } else {
     alert("!!!!*****invalid user!!!!!*******");
   }
